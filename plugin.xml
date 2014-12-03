@@ -104,9 +104,9 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <header-file src="src/ios/CocoaHttpd/Vendor/CocoaLumberjack/Extensions/DispatchQueueLogFormatter.h" />
 <source-file src="src/ios/CocoaHttpd/Vendor/CocoaLumberjack/Extensions/DispatchQueueLogFormatter.m" />
 
-<framework src="CFNetwork.framework" />
-<framework src="Foundation.framework" />
-<framework src="Security.framework" />
+<framework src="src/ios/Frameworks/CFNetwork.framework" custom="true" />
+<framework src="src/ios/Frameworks/Foundation.framework" custom="true" />
+<framework src="src/ios/Frameworks/Security.framework" custom="true" />
 
 </platform>
 
